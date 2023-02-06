@@ -1,10 +1,18 @@
-<h1 align="center">Konia Project</h1>
-
-<br>
+<h1 style="color: #132A43; text-align: center">Konia Project</h1>
 
 ### Project description
 
 This project was created during a selection process offered by [Konia Tecnologia](https://konia.com.br/). The development of an API for registering and listing products was requested. The code was written in Python using the Django framework.
+
+<br>
+
+![Python version](https://img.shields.io/badge/python-3.10.4-yellow)
+![Ubuntu version](https://img.shields.io/badge/ubuntu-20.04.5-green)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/renandcr/konia_project)
+![GitHub repo size](https://img.shields.io/github/repo-size/renandcr/konia_project)
+![GitHub top language](https://img.shields.io/github/languages/top/renandcr/konia_project)
+![GitHub language count](https://img.shields.io/github/languages/count/renandcr/konia_project)
+![GitHub](https://img.shields.io/github/license/renandcr/konia_project)
 
 <br>
 
@@ -29,6 +37,7 @@ This project was created during a selection process offered by [Konia Tecnologia
 
 - [Python](https://www.python.org/)
 - [Django](https://www.djangoproject.com/)
+- [Django Rest Framework](https://www.django-rest-framework.org/)
 
 <br>
 
@@ -36,7 +45,9 @@ This project was created during a selection process offered by [Konia Tecnologia
 
 ### Base URL
 
-https://under_development - (tip: add an endpoint at the end)
+http://localhost:8000 - (tip: add an endpoint at the end)
+
+<br>
 
 ### Product
 
@@ -58,7 +69,7 @@ https://under_development - (tip: add an endpoint at the end)
 
 ```
 POST /konia_project/product
-Host: under_development
+Host: localhost:8000
 Content-type: application/json
 ```
 
@@ -82,9 +93,25 @@ Status code
 
 ```json
 {
-  "id": "1",
-  "name": "Steve Jobs - Walter Isaacson",
-  "created_at": "2023-01-13T18:34:26.626Z"
+  "id": 1,
+  "name": "Walter Isaacson - Steve Jobs",
+  "created_at": "2023-02-05T23:41:52.908114Z"
+}
+```
+
+<br>
+
+<h3>Response returned for product name already existing in database</h3>
+
+Status code
+
+```
+400 Bad Request
+```
+
+```json
+{
+  "name": ["product with this name already exists."]
 }
 ```
 
@@ -98,7 +125,7 @@ Status code
 
 ```
 GET /konia_project/product
-Host: under_development
+Host: localhost:8000
 ```
 
 <br>
@@ -114,19 +141,19 @@ Status code
 ```json
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "Walter Isaacson - Steve Jobs",
-    "created_at": "2023-01-13T18:34:26.626Z"
+    "created_at": "2023-02-05T23:41:52.908114Z"
   },
   {
-    "id": "2",
-    "name": "Josh Marlerman - Caixa de pássaros",
-    "created_at": "2023-01-13T18:34:26.626Z"
+    "id": 2,
+    "name": "Josh Malerman - Caixa de pássaros",
+    "created_at": "2023-02-05T23:42:53.742201Z"
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "Aldous Huxley - Admirável mundo novo",
-    "created_at": "2023-01-13T18:34:26.626Z"
+    "created_at": "2023-02-05T23:43:30.181513Z"
   }
 ]
 ```
@@ -156,3 +183,5 @@ Made with ❤️ by Renan Ribeiro 👋 Get in touch!
 <br>
 
 ## License
+
+Licensed under [MIT](https://github.com/renandcr/konia_project/blob/development/LICENSE.md).
