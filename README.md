@@ -2,10 +2,11 @@
 
 ### Project description
 
-This project was created during a selection process offered by [Konia Tecnologia](https://konia.com.br/). The development of an API for registering and listing products was requested. The code was written in Python using the Django framework.
+This project was developed during a selection process offered by Konia Tecnologia. The development of an API for registering and listing products was requested. The API code was written in Python using the Django framework. An interface developed in React.js was also required. The interface is a complement to the API, it has a main screen where all the products that are saved in the database are rendered, in addition to a button for inserting new products. [Access the INTERFACE repository by clicking here](https://github.com/renandcr/konia_project_interface).
 
 <br>
 
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/renandcr/konia_project)
 ![Python version](https://img.shields.io/badge/python-3.10.4-yellow)
 ![Ubuntu version](https://img.shields.io/badge/ubuntu-20.04.5-green)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/renandcr/konia_project)
@@ -27,7 +28,6 @@ This project was created during a selection process offered by [Konia Tecnologia
   - [Base URL](#base-url)
   - [Product](#product)
     - [Endpoints](#endpoints)
-- [💻 Quick start](#-quick-start)
 - [Author](#author)
 - [License](#license)
 
@@ -157,10 +157,6 @@ Status code
   }
 ]
 ```
-
-<br>
-
-## 💻 Quick start
 
 <br>
 
