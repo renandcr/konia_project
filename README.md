@@ -39,6 +39,9 @@ This project was developed during a selection process offered by Konia Tecnologi
 - [Django](https://www.djangoproject.com/)
 - [Django Rest Framework](https://www.django-rest-framework.org/)
 
+### Auxiliary tools
+- [Project Trello](https://trello.com/invite/b/1VBcO23u/ATTIc26549b84c8f528cf7fe584695dcacc570D29B69/konia-project)
+
 <br>
 
 ## 📜 Documentation
