@@ -23,8 +23,8 @@ This project was developed during a selection process offered by Konia Tecnologi
 
 ### Index
 
-- [🛠️ Technologies used](#️-technologies-used)
-- [📜 Documentation](#-documentation)
+- [Technologies used](#️-technologies-used)
+- [Documentation](#-documentation)
   - [Base URL](#base-url)
   - [Product](#product)
     - [Endpoints](#endpoints)
